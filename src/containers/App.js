@@ -30,8 +30,11 @@ class App extends Component{
 			(
 			<div>
 				<div className='tc'>
+				<div id='navbar'>
 					<h1 className='f2'>Prietenii Roboti</h1>
 					<SearchBox searchChange={this.onSearchChange}/>
+				</div>
+
 					<Scroll>
 					<CardList robots={filteredRobots}/>
 					</Scroll>

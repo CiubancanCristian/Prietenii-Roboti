@@ -12,3 +12,7 @@ h1{
 	font-weight: 20;
 	color: teal;
 }
+
+#navbar{
+	height: 20vh;
+}
